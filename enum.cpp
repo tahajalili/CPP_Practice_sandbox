@@ -2,16 +2,6 @@
 
 using namespace std;
 
-void add10(int* a, int* b)
-
-{
-    *a = *a + 10;
-    *b = *b + 10;
-
-    cout << "a: " << *a << endl;
-    cout << "b: " << *b << endl;
-}
-
 namespace choices
 {
     enum myChoice 
